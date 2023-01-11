@@ -1,0 +1,24 @@
+.btn {
+  &:link,
+  &:visited {
+    display: inline-block;
+    background-color: #e67e22;
+    color: #fff;
+    font-size: 2rem;
+    padding: 1.6rem 3.2rem;
+    border-radius: 9px;
+    text-decoration: none;
+  }
+
+  &--full:link,
+  &--full:visited {
+    background-color: #e67e22;
+    color: #fff;
+  }
+
+  &--outline:link,
+  &--outline:visited {
+    background-color: white;
+    color: #555;
+  }
+}
