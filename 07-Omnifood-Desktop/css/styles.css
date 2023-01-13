@@ -82,7 +82,26 @@ body {
 }
 .hero-img {
   width: 100%;
-} /*
+}
+
+.delivered-meals {
+  display: flex;
+  margin-top: 8rem;
+}
+.delivered-imgs {
+  display: flex;
+}
+.delivered-imgs img {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+}
+.delivered-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+/*
 --- 01 TYPOGRAPHY SYSTEM
 
 - Font sizes (px)
