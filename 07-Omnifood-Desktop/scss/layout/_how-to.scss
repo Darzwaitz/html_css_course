@@ -1,0 +1,21 @@
+.section {
+  &-how {
+    padding: 9.6px 0;
+    background-color: orangered;
+
+    div {
+      &:nth-child(1) {
+        background-color: aqua;
+      }
+      &:nth-child(2) {
+        background-color: blue;
+      }
+      &:nth-child(3) {
+        background-color: violet;
+      }
+      &:nth-child(4) {
+        background-color: yellow;
+      }
+    }
+  }
+}
