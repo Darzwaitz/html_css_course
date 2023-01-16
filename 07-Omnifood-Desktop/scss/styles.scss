@@ -7,15 +7,18 @@
 @import "base/typography";
 @import "base/utilities";
 
-@import "components/button";
 // @import "components/form";
 // @import "components/popup";
 
 @import "layout/hero";
 @import "layout/header";
+@import "layout/navigation";
 // @import "layout/grid";
+
+// style for button needs to be here in the order
+@import "components/button";
+
 // @import "layout/footer";
-// @import "layout/navigation";
 
 // @import "pages/home";
 
