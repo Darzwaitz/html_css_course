@@ -4,20 +4,10 @@
     background-color: orangered;
 
     div {
-      padding: 100px;
-      font-size: 50px;
-
-      &:nth-child(1) {
-        background-color: aqua;
-      }
-      &:nth-child(2) {
-        background-color: blue;
-      }
-      &:nth-child(3) {
+      div {
+        padding: 100px;
+        font-size: 50px;
         background-color: violet;
-      }
-      &:nth-child(4) {
-        background-color: yellow;
       }
     }
   }
