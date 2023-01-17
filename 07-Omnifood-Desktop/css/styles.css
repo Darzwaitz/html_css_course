@@ -120,6 +120,10 @@ body {
   padding: 9.6px 0;
   background-color: orangered;
 }
+.section-how div {
+  padding: 100px;
+  font-size: 50px;
+}
 .section-how div:nth-child(1) {
   background-color: aqua;
 }
@@ -131,6 +135,21 @@ body {
 }
 .section-how div:nth-child(4) {
   background-color: yellow;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .btn:link, .btn:visited {

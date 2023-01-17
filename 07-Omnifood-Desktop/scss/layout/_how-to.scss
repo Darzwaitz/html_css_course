@@ -4,6 +4,9 @@
     background-color: orangered;
 
     div {
+      padding: 100px;
+      font-size: 50px;
+
       &:nth-child(1) {
         background-color: aqua;
       }

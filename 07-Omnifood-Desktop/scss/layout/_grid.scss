@@ -1,1 +1,17 @@
-// unused yet - delete this on first use
+.grid {
+  display: grid;
+  gap: 9.6rem;
+
+  &-- {
+    &2-cols {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    &3-cols {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    &4-cols {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  grid-template-columns: repeat(2, 1fr);
+}
