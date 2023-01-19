@@ -1,13 +1,10 @@
 .section {
   &-how {
-    padding: 9.6px 0;
-    background-color: orangered;
+    padding: 9.6rem 0;
 
-    div {
-      div {
-        padding: 100px;
-        font-size: 50px;
-        background-color: violet;
+    .step {
+      &-img {
+        width: 50%;
       }
     }
   }
