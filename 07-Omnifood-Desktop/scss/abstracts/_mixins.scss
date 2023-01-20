@@ -1,4 +1,8 @@
-// unused yet - delete this on first use
+@mixin headings {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+}
 
 // @mixin clearfix {
 //     &::after {
@@ -33,7 +37,7 @@
  - big-desktop
  */
 
- //ORDER of queriez: Base + typography > general layout + grid > page layout > componentz
+//ORDER of queriez: Base + typography > general layout + grid > page layout > componentz
 
 //  using em for media queries - em's rem's not affected in queries by route size
 // em's best option for media queriez
