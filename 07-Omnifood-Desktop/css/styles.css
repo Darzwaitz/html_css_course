@@ -178,6 +178,27 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+.section-how .step-img-box::before {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -2;
+  width: 60%;
+  padding-bottom: 60%;
+  background-color: #fdf2e9;
+}
+.section-how .step-img-box::after {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+  width: 45%;
+  padding-bottom: 45%;
+  background-color: #fae5d3;
 }
 .section-how .step-description {
   font-size: 1.8rem;

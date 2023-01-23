@@ -4,6 +4,13 @@
   letter-spacing: -0.5px;
 }
 
+@mixin pseudo-circle {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+}
+
 // @mixin clearfix {
 //     &::after {
 //         content: "";

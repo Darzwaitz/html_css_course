@@ -15,6 +15,26 @@
           display: flex;
           align-items: center;
           justify-content: center;
+          position: relative;
+
+          &::before {
+            @include pseudo-circle;
+            z-index: -2;
+            width: 60%;
+            // height: 60%; - hack used here, as height with % won't work
+            padding-bottom: 60%;
+            background-color: #fdf2e9;
+          }
+
+          &::after {
+            @include pseudo-circle;
+            z-index: -1;
+
+            width: 45%;
+            // height: 60%; - hack used here, as height with % won't work
+            padding-bottom: 45%;
+            background-color: #fae5d3;
+          }
         }
         width: 35%;
       }
