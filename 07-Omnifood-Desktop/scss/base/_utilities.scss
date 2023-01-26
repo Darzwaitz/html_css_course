@@ -4,6 +4,12 @@
 .margin-bottom-sm {
   margin-bottom: 2.6rem;
 }
+
+// redefine strong tag
+strong {
+  font-weight: 500;
+}
+
 // .u-center-text {
 //     text-align: center !important;
 // }

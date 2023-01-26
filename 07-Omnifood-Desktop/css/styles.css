@@ -94,6 +94,10 @@ body {
   margin-bottom: 2.6rem;
 }
 
+strong {
+  font-weight: 500;
+}
+
 .section-hero {
   background-color: #fdf2e9;
   padding: 4.8rem 0rem 9.6rem 0;
@@ -252,8 +256,44 @@ body {
 .section-meals {
   padding: 9.6rem 0;
 }
+.section-meals .tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background-color: #51cf66;
+  color: #333;
+  border-radius: 100px;
+  font-weight: 600;
+}
+.section-meals .tag--vegetarian {
+  background-color: #51cf66;
+}
+.section-meals .tag--vegan {
+  background-color: #94d82d;
+}
+.section-meals .tag--paleo {
+  background-color: #ffd43b;
+}
+.section-meals .meal {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+}
+.section-meals .meal-content {
+  padding: 4.2rem;
+  padding-top: 3.2rem;
+}
+.section-meals .meal-tags {
+  margin-bottom: 1.2rem;
+  display: flex;
+  gap: 0.4rem;
+}
 .section-meals .meal-attribute {
   font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
 }
 .section-meals .meal-attributes {
   list-style: none;
@@ -268,6 +308,11 @@ body {
 }
 .section-meals .meal-img {
   width: 100%;
+}
+.section-meals .meal-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #e67e22;
 }
 
 .btn:link, .btn:visited {
