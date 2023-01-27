@@ -102,6 +102,10 @@ strong {
   font-weight: 500;
 }
 
+.center-text {
+  text-align: center;
+}
+
 .section-hero {
   background-color: #fdf2e9;
   padding: 4.8rem 0rem 9.6rem 0;
@@ -283,6 +287,11 @@ strong {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 11px;
   overflow: hidden;
+  transition: all 0.4s;
+}
+.section-meals .meal:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
 .section-meals .meal-content {
   padding: 4.2rem;
