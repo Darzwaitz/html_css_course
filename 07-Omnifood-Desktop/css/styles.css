@@ -324,7 +324,7 @@ strong {
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
   text-decoration: none;
-  transition: background-color 0.3s;
+  transition: all 0.3s;
 }
 .btn--full:link, .btn--full:visited {
   background-color: #e67e22;
