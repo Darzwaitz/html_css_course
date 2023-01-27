@@ -94,6 +94,10 @@ body {
   margin-bottom: 2.6rem;
 }
 
+.margin-bottom-md {
+  margin-bottom: 4.8rem;
+}
+
 strong {
   font-weight: 500;
 }
@@ -331,6 +335,10 @@ strong {
   height: 3rem;
   color: #e67e22;
 }
+.section-meals .all-recipes {
+  text-align: center;
+  font-size: 1.8rem;
+}
 
 .btn:link, .btn:visited {
   display: inline-block;
@@ -367,6 +375,19 @@ strong {
 }
 .nav-cta:hover, .nav-cta:active {
   background-color: #cf711f;
+}
+
+.link:link, .link:visited {
+  display: inline-block;
+  color: #e67e22;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+.link:hover, .link:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
 }
 
 /*
