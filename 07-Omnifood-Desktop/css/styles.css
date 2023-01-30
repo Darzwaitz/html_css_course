@@ -349,6 +349,10 @@ strong {
   font-size: 1.8rem;
 }
 
+.section-testimonials {
+  padding: 9.6rem;
+}
+
 .btn:link, .btn:visited {
   display: inline-block;
   background-color: #e67e22;
