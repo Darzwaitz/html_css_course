@@ -352,6 +352,15 @@ strong {
 .section-testimonials {
   padding: 9.6rem;
 }
+.section-testimonials .testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4.8rem;
+}
+.section-testimonials .testimonial-img {
+  width: 6.4rem;
+  border-radius: 50%;
+}
 
 .btn:link, .btn:visited {
   display: inline-block;
