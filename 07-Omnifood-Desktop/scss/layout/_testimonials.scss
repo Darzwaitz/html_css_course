@@ -1,12 +1,20 @@
 .section {
   &-testimonials {
-    padding: 9.6rem 0;
+    display: grid;
+    grid-template-columns: 55fr 45fr;
+    align-items: center;
+    background-color: #fdf2e9;
 
     .testimonial {
       &s {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 4.8rem;
+        row-gap: 4.8rem;
+        column-gap: 8rem;
+
+        &-container {
+          padding: 9.6rem;
+        }
       }
 
       &-img {
@@ -31,6 +39,8 @@
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 1.6rem;
+      padding: 1.6rem;
+
       &-item {
         img {
           display: block;
