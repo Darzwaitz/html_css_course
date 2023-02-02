@@ -406,6 +406,30 @@ strong {
   transform: scale(1.1);
 }
 
+.section-pricing {
+  padding: 9.6rem 0;
+}
+.section-pricing .list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.section-pricing .list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.section-pricing .list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #e67e22;
+}
+.section-pricing .plan-header {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
 .btn:link, .btn:visited {
   display: inline-block;
   background-color: #e67e22;
