@@ -439,6 +439,20 @@ strong {
 .section-pricing .pricing-plan--complete {
   background-color: #fdf2e9;
   padding: 4.8rem;
+  position: relative;
+  overflow: hidden;
+}
+.section-pricing .pricing-plan--complete::after {
+  content: "Best value";
+  position: absolute;
+  top: 6%;
+  right: -18%;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  background-color: #ffd43b;
+  padding: 0.8rem 8rem;
+  transform: rotate(45deg);
 }
 .section-pricing .plan-header {
   text-align: center;
