@@ -430,6 +430,35 @@ strong {
   text-align: center;
   margin-bottom: 4.8rem;
 }
+.section-pricing .plan-name {
+  color: #cf711f;
+  font-weight: 600;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75;
+  margin-bottom: 3.2rem;
+}
+.section-pricing .plan-price {
+  font-size: 7.4rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.6rem;
+}
+.section-pricing .plan-price span {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-right: 0.8rem;
+}
+.section-pricing .plan-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #6f6f6f;
+}
+.section-pricing .plan-sign-up {
+  text-align: center;
+  margin-top: 4.8rem;
+}
+
 .btn:link, .btn:visited {
   display: inline-block;
   background-color: #e67e22;
