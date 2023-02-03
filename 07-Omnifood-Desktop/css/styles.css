@@ -235,6 +235,9 @@ strong {
   column-gap: 6.4rem;
   row-gap: 9.6rem;
 }
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
@@ -486,7 +489,6 @@ strong {
   text-align: center;
   margin-top: 4.8rem;
 }
-
 .btn:link, .btn:visited {
   display: inline-block;
   background-color: #e67e22;

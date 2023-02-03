@@ -3,6 +3,10 @@
   column-gap: 6.4rem;
   row-gap: 9.6rem;
 
+  &:not(:last-child) {
+    margin-bottom: 9.6rem;
+  }
+
   &-- {
     &2-cols {
       grid-template-columns: repeat(2, 1fr);
