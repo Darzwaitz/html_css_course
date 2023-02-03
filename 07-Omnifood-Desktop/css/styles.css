@@ -91,11 +91,11 @@ body {
 }
 
 .margin-bottom-sm {
-  margin-bottom: 2.6rem;
+  margin-bottom: 2.6rem !important;
 }
 
 .margin-bottom-md {
-  margin-bottom: 4.8rem;
+  margin-bottom: 4.8rem !important;
 }
 
 strong {
@@ -488,6 +488,11 @@ strong {
 .section-pricing .plan-sign-up {
   text-align: center;
   margin-top: 4.8rem;
+}
+.section-pricing .plan-details {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
 }
 .section-pricing .feature-icon {
   color: #e67e22;
