@@ -534,6 +534,7 @@ strong {
 .section-cta .cta-text {
   font-size: 1.8rem;
   line-height: 1.8;
+  margin-bottom: 4.8rem;
 }
 .section-cta .cta-text-box {
   padding: 4.8rem 6.4rem 6.4rem 6.4rem;
@@ -542,6 +543,12 @@ strong {
 .section-cta .cta .heading-secondary {
   color: #45260a;
   margin-bottom: 3.2rem;
+}
+.section-cta .cta-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
 }
 
 .btn:link, .btn:visited {
