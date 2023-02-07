@@ -531,6 +531,18 @@ strong {
   background-size: cover;
   background-position: center;
 }
+.section-cta .cta-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+.section-cta .cta-text-box {
+  padding: 6.4rem;
+  color: #45260a;
+}
+.section-cta .cta .heading-secondary {
+  color: #45260a;
+  margin-bottom: 3.2rem;
+}
 
 .btn:link, .btn:visited {
   display: inline-block;

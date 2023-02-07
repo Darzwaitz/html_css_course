@@ -25,9 +25,20 @@
         background-size: cover;
         background-position: center;
       }
-      //   &-text-box {
+      &-text {
+        font-size: 1.8rem;
+        line-height: 1.8;
 
-      //   }
+        &-box {
+          padding: 6.4rem;
+          color: #45260a;
+        }
+      }
+
+      .heading-secondary {
+        color: #45260a;
+        margin-bottom: 3.2rem;
+      }
     }
   }
 }
