@@ -18,6 +18,10 @@
   margin: 0;
   box-sizing: border-box;
 }
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.523);
+}
 
 html {
   font-size: 62.5%;
@@ -570,6 +574,9 @@ strong {
 .section-cta .cta-form input::placeholder,
 .section-cta .cta-form select::placeholder {
   color: #aaa;
+}
+.section-cta .cta *:focus {
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.495);
 }
 
 .btn,
