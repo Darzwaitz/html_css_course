@@ -12,8 +12,6 @@
 
       background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
 
-      height: 50rem;
-
       &-img-box {
         background-image: linear-gradient(
             to right bottom,
@@ -68,10 +66,6 @@
           &::placeholder {
             color: #aaa;
           }
-        }
-        select {
-        }
-        button {
         }
       }
     }
