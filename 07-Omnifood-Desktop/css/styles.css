@@ -572,17 +572,21 @@ strong {
 .section-cta .cta-form select::placeholder {
   color: #aaa;
 }
-.btn:link, .btn:visited {
+.btn,
+.btn:link,
+.btn:visited {
   display: inline-block;
-  background-color: #e67e22;
-  color: #fff;
   font-size: 2rem;
   font-weight: 600;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
   text-decoration: none;
   transition: all 0.3s;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 }
+
 .btn--full:link, .btn--full:visited {
   background-color: #e67e22;
   color: #fff;
