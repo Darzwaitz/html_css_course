@@ -251,6 +251,9 @@ strong {
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
 .grid-center-v {
   align-items: center;
 }
@@ -577,6 +580,10 @@ strong {
 }
 .section-cta .cta *:focus {
   box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.495);
+}
+
+.footer {
+  padding: 9.6rem 0;
 }
 
 .btn,
