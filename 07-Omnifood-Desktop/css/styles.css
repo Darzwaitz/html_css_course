@@ -522,7 +522,7 @@ strong {
 }
 
 .section-cta {
-  padding: 9.6rem 0;
+  padding: 4.8rem 0 12.8rem 0;
 }
 .section-cta .cta {
   display: grid;
@@ -583,11 +583,23 @@ strong {
 }
 
 .footer {
-  padding: 9.6rem 0;
+  padding: 12.8rem 0;
+  border-top: 1px solid #eee;
+}
+.footer--grid {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
 }
 .footer .logo-col {
   display: flex;
   flex-direction: column;
+}
+.footer .contacts {
+  font-style: none;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+.footer .address {
+  margin-bottom: 2.4rem;
 }
 .footer-logo {
   display: block;
