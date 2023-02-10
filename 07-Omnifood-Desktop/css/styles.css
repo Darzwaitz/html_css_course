@@ -114,6 +114,16 @@ strong {
   background-color: #fdf2e9;
   padding: 4.8rem 0rem 9.6rem 0;
 }
+@media (max-width: 75em) {
+  .section-hero {
+    background-color: red;
+  }
+}
+@media (max-width: 37.5em) {
+  .section-hero {
+    background-color: blue;
+  }
+}
 
 .hero {
   max-width: 130rem;
