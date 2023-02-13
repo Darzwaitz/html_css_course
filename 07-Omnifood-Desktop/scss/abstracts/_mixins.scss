@@ -68,8 +68,9 @@
     } //1200px / 16
   }
   @if $breakpoint == big-desktop {
-    @media (min-width: 112.5em) {
+    // @media (min-width: 84em) {
+    @media (max-width: 84em) {
       @content;
-    } //1800px / 16
+    } //1350px / 16 - updated for this project
   }
 }
