@@ -11,6 +11,12 @@
 
 html {
   font-size: 62.5%;
+
+  // media query - tablet landscape size
+  @include respond(tab-land) {
+    /* 9px / 16px */
+    font-size: 56.25%;
+  }
 }
 
 body {

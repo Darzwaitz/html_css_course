@@ -22,8 +22,14 @@
   gap: 9.6rem;
   align-items: center;
 
+  // media query - large desktop size
   @include respond(big-desktop) {
     max-width: 120rem;
+  }
+
+  // media query - tablet landscape size
+  @include respond(tab-land) {
+    gap: 4.8rem;
   }
 
   &-description {

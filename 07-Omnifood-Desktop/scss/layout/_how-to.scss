@@ -37,6 +37,11 @@
           }
         }
         width: 35%;
+
+        // media query - tablet landscape size
+        @include respond(tab-land) {
+          width: 30%;
+        }
       }
 
       &-description {
