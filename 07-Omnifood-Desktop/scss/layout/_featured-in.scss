@@ -10,6 +10,11 @@
         height: 3.2rem;
         filter: brightness(0);
         opacity: 55%;
+
+        // media query - tablet port size
+        @include respond(tab-port) {
+          height: 2.4rem;
+        }
       }
     }
   }

@@ -5,6 +5,11 @@
     align-items: center;
     background-color: #fdf2e9;
 
+    // media query - tablet port size
+    @include respond(tab-port) {
+      grid-template-columns: 1fr;
+    }
+
     .testimonial {
       &s {
         display: grid;
@@ -57,6 +62,11 @@
       grid-template-columns: repeat(3, 1fr);
       gap: 1.6rem;
       padding: 1.6rem;
+
+      // media query - tablet port size
+      @include respond(tab-port) {
+        grid-template-columns: repeat(6, 1fr);
+      }
 
       &-item {
         overflow: hidden;

@@ -17,6 +17,12 @@ html {
     /* 9px / 16px */
     font-size: 56.25%;
   }
+
+  // media query - tablet port size
+  @include respond(tab-port) {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
 }
 
 body {

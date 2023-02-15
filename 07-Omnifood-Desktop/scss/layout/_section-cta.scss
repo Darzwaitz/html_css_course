@@ -12,6 +12,11 @@
 
       background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
 
+      // media query - tablet port size
+      @include respond(tab-port) {
+        grid-template-columns: 3fr 2fr;
+      }
+
       &-img-box {
         background-image: linear-gradient(
             to right bottom,
@@ -44,6 +49,11 @@
         grid-template-columns: repeat(2, 1fr);
         column-gap: 3.2rem;
         row-gap: 2.4rem;
+
+        // media query - tablet port size
+        @include respond(tab-port) {
+          grid-template-columns: 1fr;
+        }
 
         label {
           display: block;
