@@ -59,6 +59,29 @@
       color: #555;
     }
   }
+
+  &-mobile-nav {
+    border: none;
+    background: none;
+    cursor: pointer;
+
+    display: none;
+
+    // media query - tablet port size
+    @include respond(tab-port) {
+      display: block;
+    }
+
+    .icon-mobile-nav {
+      height: 4.8rem;
+      width: 4.8rem;
+      color: #333;
+
+      &[name="close-outline"] {
+        display: none;
+      }
+    }
+  }
 }
 
 .nav-cta {
