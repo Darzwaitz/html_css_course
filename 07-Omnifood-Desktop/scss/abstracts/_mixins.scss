@@ -46,16 +46,16 @@
 
 //ORDER of queriez: Base + typography > general layout + grid > page layout > componentz
 
-//  using em for media queries - em's rem's not affected in queries by route size
+//  using em for media queries - em's rem's not affected in queries by root size
 // em's best option for media queriez
 
 // 1em = 16px
 
 @mixin respond($breakpoint) {
   @if $breakpoint == phone {
-    @media (max-width: 37.5em) {
+    @media (max-width: 44em) {
       @content;
-    } //600px / 16
+    } //704px / 16
   }
   @if $breakpoint == tab-port {
     @media (max-width: 59em) {

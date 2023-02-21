@@ -30,6 +30,11 @@ body {
       font-size: 3.6rem;
       margin-bottom: 5rem;
     }
+
+    // media query - phone size
+    @include respond(phone) {
+      margin-bottom: 4.8rem;
+    }
   }
   &-tertiary {
     @include headings;

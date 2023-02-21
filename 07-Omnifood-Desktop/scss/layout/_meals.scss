@@ -103,5 +103,13 @@
       text-align: center;
       font-size: 1.8rem;
     }
+
+    .diets {
+      // media query - phone size
+      @include respond(phone) {
+        grid-column: 1 / -1;
+        justify-self: center;
+      }
+    }
   }
 }

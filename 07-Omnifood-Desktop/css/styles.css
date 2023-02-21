@@ -84,6 +84,11 @@ body {
     margin-bottom: 5rem;
   }
 }
+@media (max-width: 44em) {
+  .heading-secondary {
+    margin-bottom: 4.8rem;
+  }
+}
 .heading-tertiary {
   font-weight: 700;
   color: #333;
@@ -379,11 +384,18 @@ strong {
 .grid--3-cols {
   grid-template-columns: repeat(3, 1fr);
 }
+@media (max-width: 44em) {
+  .grid--3-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
-.grid--5-cols {
-  grid-template-columns: repeat(5, 1fr);
+@media (max-width: 44em) {
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 .grid-center-v {
   align-items: center;
@@ -497,6 +509,12 @@ strong {
 .section-meals .all-recipes {
   text-align: center;
   font-size: 1.8rem;
+}
+@media (max-width: 44em) {
+  .section-meals .diets {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
 }
 
 .section-testimonials {
@@ -619,6 +637,11 @@ strong {
   background-color: #ffd43b;
   padding: 0.8rem 8rem;
   transform: rotate(45deg);
+}
+@media (max-width: 44em) {
+  .section-pricing .pricing-plan {
+    width: 100%;
+  }
 }
 .section-pricing .plan-header {
   text-align: center;
@@ -755,9 +778,19 @@ strong {
 .footer--grid {
   grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
 }
+@media (max-width: 44em) {
+  .footer--grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
 .footer .logo-col {
   display: flex;
   flex-direction: column;
+}
+@media (max-width: 44em) {
+  .footer .logo-col {
+    grid-column: span 3;
+  }
 }
 .footer .contacts {
   font-style: none;
@@ -766,6 +799,11 @@ strong {
 }
 .footer .address {
   margin-bottom: 2.4rem;
+}
+@media (max-width: 44em) {
+  .footer .address-col {
+    grid-column: span 3;
+  }
 }
 .footer-logo {
   display: block;
@@ -781,6 +819,12 @@ strong {
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
+}
+@media (max-width: 44em) {
+  .footer-nav-col {
+    grid-row: 1;
+    grid-column: span 2;
+  }
 }
 .footer-link:link, .footer-link:visited {
   text-decoration: none;
