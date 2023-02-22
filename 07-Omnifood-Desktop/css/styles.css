@@ -820,12 +820,6 @@ strong {
   flex-direction: column;
   gap: 2.4rem;
 }
-@media (max-width: 44em) {
-  .footer-nav-col {
-    grid-row: 1;
-    grid-column: span 2;
-  }
-}
 .footer-link:link, .footer-link:visited {
   text-decoration: none;
   font-size: 1.6rem;
@@ -849,6 +843,14 @@ strong {
   line-height: 1.6;
   color: #767676;
   margin-top: auto;
+}
+
+@media (max-width: 44em) {
+  .nav-col {
+    grid-row: 1;
+    grid-column: span 2;
+    margin-bottom: 3.2rem;
+  }
 }
 
 .btn,
