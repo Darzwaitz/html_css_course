@@ -173,6 +173,11 @@ strong {
     gap: 6.4rem;
   }
 }
+@media (max-width: 34em) {
+  .hero {
+    padding: 0rem 3.2rem;
+  }
+}
 .hero-description {
   font-size: 2rem;
   line-height: 1.6;

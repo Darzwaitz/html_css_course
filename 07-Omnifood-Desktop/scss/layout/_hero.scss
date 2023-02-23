@@ -39,6 +39,11 @@
     gap: 6.4rem;
   }
 
+  // media query - phone-small size
+  @include respond(phone-small) {
+    padding: 0rem 3.2rem;
+  }
+
   &-description {
     font-size: 2rem;
     line-height: 1.6;
