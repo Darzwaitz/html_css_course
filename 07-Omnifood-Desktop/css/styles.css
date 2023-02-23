@@ -375,11 +375,21 @@ strong {
     row-gap: 6.4rem;
   }
 }
+@media (max-width: 34em) {
+  .grid {
+    row-gap: 4.8rem;
+  }
+}
 .grid:not(:last-child) {
   margin-bottom: 9.6rem;
 }
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
+}
+@media (max-width: 34em) {
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
 }
 .grid--3-cols {
   grid-template-columns: repeat(3, 1fr);
@@ -389,12 +399,22 @@ strong {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+@media (max-width: 34em) {
+  .grid--3-cols {
+    grid-template-columns: 1fr;
+  }
+}
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
 @media (max-width: 44em) {
   .grid--4-cols {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 34em) {
+  .grid--4-cols {
+    grid-template-columns: 1fr;
   }
 }
 .grid-center-v {

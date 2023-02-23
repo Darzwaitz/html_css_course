@@ -52,6 +52,11 @@
 // 1em = 16px
 
 @mixin respond($breakpoint) {
+  @if $breakpoint == phone-small {
+    @media (max-width: 34em) {
+      @content;
+    } //544px / 16
+  }
   @if $breakpoint == phone {
     @media (max-width: 44em) {
       @content;
