@@ -22,6 +22,25 @@
           justify-content: center;
           position: relative;
 
+          &:nth-child(2) {
+            // media query - phone-small size
+            @include respond(phone-small) {
+              grid-row: 1;
+            }
+          }
+
+          &:nth-child(6) {
+            // media query - phone-small size
+            @include respond(phone-small) {
+              grid-row: 5;
+            }
+          }
+
+          // media query - phone-small size
+          @include respond(phone-small) {
+            transform: translateY(2.4rem);
+          }
+
           &::before {
             @include pseudo-circle;
             z-index: -2;
