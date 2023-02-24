@@ -17,6 +17,11 @@
         grid-template-columns: 3fr 2fr;
       }
 
+      // media query - phone-small size
+      @include respond(phone-small) {
+        grid-template-columns: 1fr;
+      }
+
       &-img-box {
         background-image: linear-gradient(
             to right bottom,
@@ -27,6 +32,12 @@
 
         background-size: cover;
         background-position: center;
+
+        // media query - phone-small size
+        @include respond(phone-small) {
+          height: 32rem;
+          grid-row: 1;
+        }
       }
       &-text {
         font-size: 1.8rem;
@@ -36,6 +47,11 @@
         &-box {
           padding: 4.8rem 6.4rem 6.4rem 6.4rem;
           color: #45260a;
+
+          // media query - phone-small size
+          @include respond(phone-small) {
+            padding: 3.2rem;
+          }
         }
       }
 

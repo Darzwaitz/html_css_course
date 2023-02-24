@@ -2,6 +2,11 @@
   &-meals {
     padding: 9.6rem 0;
 
+    // media query - phone-small size
+    @include respond(phone-small) {
+      padding-top: 7.6rem;
+    }
+
     .tag {
       display: inline-block;
       padding: 0.4rem 0.8rem;

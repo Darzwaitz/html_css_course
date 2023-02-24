@@ -73,6 +73,12 @@
         grid-template-columns: repeat(6, 1fr);
       }
 
+      // media query - phone-small size
+      @include respond(phone-small) {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.2rem;
+      }
+
       &-item {
         overflow: hidden;
         img {

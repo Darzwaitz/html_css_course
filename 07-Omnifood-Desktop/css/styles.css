@@ -329,6 +329,11 @@ strong {
 .section-how {
   padding: 9.6rem 0;
 }
+@media (max-width: 34em) {
+  .section-how {
+    padding: 5.6rem 0 0 0;
+  }
+}
 .section-how .step-number {
   font-size: 8.6rem;
   font-weight: 600;
@@ -476,6 +481,11 @@ strong {
 
 .section-meals {
   padding: 9.6rem 0;
+}
+@media (max-width: 34em) {
+  .section-meals {
+    padding-top: 7.6rem;
+  }
 }
 .section-meals .tag {
   display: inline-block;
@@ -636,6 +646,12 @@ strong {
     grid-template-columns: repeat(6, 1fr);
   }
 }
+@media (max-width: 34em) {
+  .section-testimonials .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
+  }
+}
 .section-testimonials .gallery-item {
   overflow: hidden;
 }
@@ -776,10 +792,21 @@ strong {
     grid-template-columns: 3fr 2fr;
   }
 }
+@media (max-width: 34em) {
+  .section-cta .cta {
+    grid-template-columns: 1fr;
+  }
+}
 .section-cta .cta-img-box {
   background-image: linear-gradient(to right bottom, rgba(235, 151, 78, 0.522), rgba(230, 125, 34, 0.518)), url("../content/img/eating.jpg");
   background-size: cover;
   background-position: center;
+}
+@media (max-width: 34em) {
+  .section-cta .cta-img-box {
+    height: 32rem;
+    grid-row: 1;
+  }
 }
 .section-cta .cta-text {
   font-size: 1.8rem;
@@ -789,6 +816,11 @@ strong {
 .section-cta .cta-text-box {
   padding: 4.8rem 6.4rem 6.4rem 6.4rem;
   color: #45260a;
+}
+@media (max-width: 34em) {
+  .section-cta .cta-text-box {
+    padding: 3.2rem;
+  }
 }
 .section-cta .cta .heading-secondary {
   color: inherit;
