@@ -146,6 +146,11 @@ strong {
   background-color: #fdf2e9;
   padding: 4.8rem 0rem 9.6rem 0;
 }
+@media (max-width: 34em) {
+  .section-hero {
+    padding: 2.4rem 0rem 6.4rem 0;
+  }
+}
 
 .hero {
   max-width: 130rem;
@@ -189,6 +194,11 @@ strong {
 @media (max-width: 59em) {
   .hero-img {
     width: 60%;
+  }
+}
+@media (max-width: 34em) {
+  .hero-img {
+    width: 80%;
   }
 }
 @media (max-width: 59em) {
@@ -441,6 +451,11 @@ strong {
 @media (max-width: 59em) {
   .section-featured .logos img {
     height: 2.4rem;
+  }
+}
+@media (max-width: 34em) {
+  .section-featured .logos img {
+    height: 1.2rem;
   }
 }
 
@@ -891,6 +906,13 @@ strong {
   border: none;
   cursor: pointer;
   font-family: inherit;
+}
+@media (max-width: 34em) {
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 2.4rem 1.6rem;
+  }
 }
 
 .btn--full:link, .btn--full:visited {

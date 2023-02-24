@@ -2,15 +2,10 @@
   background-color: #fdf2e9;
   padding: 4.8rem 0rem 9.6rem 0;
 
-  // // media query - tablet landscape size
-  // @include respond(tab-land) {
-  //   background-color: red;
-  // }
-
-  // // media query - phone size
-  // @include respond(phone) {
-  //   background-color: blue;
-  // }
+  // media query - phone-small size
+  @include respond(phone-small) {
+    padding: 2.4rem 0rem 6.4rem 0;
+  }
 }
 
 .hero {
@@ -56,6 +51,11 @@
     // media query - tablet port size
     @include respond(tab-port) {
       width: 60%;
+    }
+
+    // media query - phone-small size
+    @include respond(phone-small) {
+      width: 80%;
     }
   }
 
