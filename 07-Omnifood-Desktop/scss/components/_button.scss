@@ -75,6 +75,7 @@
     // media query - tablet port size
     @include respond(tab-port) {
       display: block;
+      z-index: 9999;
     }
 
     .icon-mobile-nav {
