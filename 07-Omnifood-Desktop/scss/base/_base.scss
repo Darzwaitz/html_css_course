@@ -25,7 +25,8 @@ html {
     font-size: 50%;
   }
 
-  scroll-behavior: smooth;
+  // Doesn't work on safari
+  // scroll-behavior: smooth;
 }
 
 body {
