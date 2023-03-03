@@ -1,3 +1,8 @@
+// add current year to footer
+const yearEl = document.querySelector(".year");
+const currentYear = new Date().getFullYear();
+yearEl.textContent = currentYear;
+
 const btnNavEl = document.querySelector(".btn-mobile-nav");
 // console.log(btnNavEl);
 const headerEl = document.querySelector(".header");
