@@ -9,10 +9,8 @@ btnNavEl.addEventListener("click", function () {
 // smooth scrolling
 const allLinks = document.querySelectorAll("a:link");
 allLinks.forEach(function (link) {
-  // console.log(link);
   link.addEventListener("click", function (e) {
     e.preventDefault();
-    // console.log("test");
     const href = link.getAttribute("href");
     // scroll back to top
     if (href === "#")
