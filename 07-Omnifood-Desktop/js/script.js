@@ -44,13 +44,14 @@ const obs = new IntersectionObserver(
   function (entries) {
     const ent = entries[0];
     // console.log(ent);
-    if (ent.isIntersecting === false)
-      document.querySelector(".header").classList.add("sticky");
+    if (!ent.isIntersecting) document.body.classList.add("sticky");
+    if (ent.isIntersecting) document.body.classList.remove("sticky");
   },
   {
     // in the viewport
     root: null,
     threshold: 0, // when zero % of targeted element is out of view
+    rootMargin: "-80px", // needz to be set in px here
   }
 );
 obs.observe(sectionHeroEl);
