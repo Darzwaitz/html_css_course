@@ -112,7 +112,18 @@
             </div>
           </div>
           <div class="hero-img-box">
-            <img src="content/img/hero.png" alt="hero image" class="hero-img" />
+            <picture>
+              <!-- if webp is supported by browzer, it would load from here NB - if the image doesn't exist,
+              but the format is supported, the image will not show - even the fallback -->
+              <!-- <source srcset="content/img/hero.webp" type="image/webp" /> -->
+              <source srcset="content/img/hero.png" type="image/png" />
+
+              <img
+                src="content/img/hero.png"
+                alt="hero image"
+                class="hero-img"
+              />
+            </picture>
           </div>
         </div>
       </section>
